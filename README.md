@@ -46,7 +46,6 @@
         </tr>
       </tbody>
     </table>
-  
     <h1>LinkedList Class API</h1>
     <table class="table">
       <thead>
@@ -330,13 +329,11 @@
           </td>
           <td>
             <pre>
-              const list = new List();
-  
+              const list = new List(); 
               list.insertLast(1);
               list.insertLast(2);
               list.insertLast(3);
-              list.insertLast(4);
-  
+              list.insertLast(4); 
               list.forEach(node => {
                 node.data += 10;
               });
@@ -359,17 +356,14 @@
           </td>
           <td>
             <pre>
-              const list = new List();
-  
+              const list = new List(); 
               list.insertLast(1);
               list.insertLast(2);
               list.insertLast(3);
               list.insertLast(4);
-  
               for (let node of list) {
                 node.data += 10;
-              }
-  
+              }  
               node.getAt(1); // returns node with data 11
             </pre>
           </td>
